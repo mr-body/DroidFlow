@@ -33,7 +33,7 @@ function FormMain() {
 app.whenReady().then(() => {
   FormMain()
   app.on('activate', function () {
-    if (BrowserWindow.getAllWindows().length === 0) FormLogin()
+    if (BrowserWindow.getAllWindows().length === 0) FormMain()
   })
 })
 

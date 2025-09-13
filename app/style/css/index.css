@@ -150,4 +150,71 @@ footer div {
   width: 100%;
 }
 
+/* Device List Styles */
+.device-list {
+  padding: 20px;
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+}
+
+.device-list h2 {
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.device-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.device-list .alert {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: #d1ecf1;
+  border: 1px solid #b8daff;
+  color: #0c5460;
+}
+
+.device-item {
+  cursor: pointer;
+  padding: 15px;
+  border: 2px solid #ddd;
+  margin: 10px 0;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.device-item:hover {
+  background-color: #f8f9fa;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.device-item.selected {
+  border-color: #007bff;
+  background-color: #e3f2fd;
+}
+
+.device-info {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.device-status {
+  color: #007bff;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.help-text {
+  margin-top: 20px;
+  text-align: center;
+  color: #666;
+  font-size: 12px;
+}
+
 /*# sourceMappingURL=index.css.map */
